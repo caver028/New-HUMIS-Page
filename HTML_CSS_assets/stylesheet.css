@@ -1,0 +1,143 @@
+body {
+    background-color: dimgrey;
+}
+
+div.container {
+    width: 780px;
+    min-height: 500px;
+    margin: 0 auto;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container header > img {
+    display: block;
+}
+
+.nav {
+    text-align: right;
+    padding: 30px;
+}
+
+.nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 60%;
+}
+
+.top-nav a {
+    text-transform: uppercase;
+    margin: 0 3px;
+    padding: 5px;
+}
+
+.nav span:after {
+    content: "|";
+    font-size: 10px;
+}
+
+.nav span:last-of-type:after {
+    content: "";
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+.top-nav a img {
+    vertical-align: middle;
+}
+
+div.middle {
+    background-color: #f5f4f7;
+}
+
+div.middle section.guts aside.nav {
+    float: left;
+    width: 165px;
+    text-align: left;
+}
+
+aside.nav div.nav-img-links {
+    margin-top: 5rem;
+    text-align: center;
+}
+
+aside.nav div.nav-img-links a {
+    border-bottom: unset;
+}
+
+aside.nav div.nav-img-links a:hover {
+    background-color: unset;
+}
+
+aside.nav a {
+    color: black;
+    display: block;
+    padding: 20px;
+    width: 80%;
+    float: left;
+    border-bottom: 1px solid green;
+    font-size: 60%;
+}
+
+aside.nav a:hover {
+    background-color: gray;
+    color: black;
+    text-decoration: underline;
+}
+
+div.middle section.guts article.main {
+    float: right;
+    width: 490px;
+    background-color: #ffffff;
+    padding:  0.5rem;
+    border-left: 2px solid darkgrey;
+}
+
+article.main h1 {
+    color: red;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 90%;
+}
+
+article.main div.content {
+    padding: 1rem 2rem;
+}
+
+div.content p span {
+    font-weight: bold;
+}
+
+div.bottom-nav {
+    text-align: right;
+}
+
+div.bottom-nav span:after {
+    content: "|";
+}
+
+.bottom-nav span:last-of-type:after {
+    content: "";
+}
+
+div.bottom-nav a {
+    color: black;
+    text-transform: lowercase;
+    text-decoration: none;
+    padding: 0 5px;
+    font-size: 10px;
+}
+
+div.bottom-nav a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: darkolivegreen;
+    color: #fff;
+    text-align: center;
+    font-size: 11px;
+    padding: 5px;
+}
